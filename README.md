@@ -1,12 +1,36 @@
-# React + Vite
+# MoodMate 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MoodMate** is a simple and elegant mood-tracking journal app built with **React.js**. It helps users record how they feel each day, add notes, and view the weather for their location — all with a calendar view and smooth dark mode support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🌦️ **Real-time Weather** – Automatically detects your location and shows current weather.
+- 📅 **Calendar View** – Navigate and select any day to view or create a journal entry.
+- 😄 **Mood Selector** – Pick an emoji that matches your mood.
+- 📝 **Notes Section** – Write how your day went.
+- 🌙 **Dark Mode Toggle** – Clean and smooth dark theme.
+- 🧠 **State Management** – Powered by React Hooks (`useState`, `useEffect`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- React.js
+- OpenWeatherMap API
+- HTML5 / CSS3
+- Tailwind CSS (optional if added)
+- JavaScript (ES6+)
+
+---
+
+## 🧪 Local Setup
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/your-username/moodmate.git
+cd moodmate
+npm install
+npm start
