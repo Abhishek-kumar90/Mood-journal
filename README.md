@@ -30,7 +30,7 @@
 Clone the repo and run it locally:
 
 ```bash
-git clone https://github.com/your-username/moodmate.git
+git clone https://[https://github.com/Abhishek-kumar90/Mood-journal]
 cd moodmate
 npm install
 npm start
