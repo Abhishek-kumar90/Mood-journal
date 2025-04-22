@@ -1,0 +1,148 @@
+/* Default Light Theme Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+}
+
+.card {
+  background: linear-gradient(135deg, #f8c390, #f6b78f);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 450px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mood-selector button {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 1rem;
+}
+
+.save-btn {
+  background: #f16944;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.note-card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+
+/* Dark Theme Styles */
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+.card.dark {
+  background: linear-gradient(135deg, #333333, #444444);
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+textarea.dark {
+  background: #2c2c2c;
+  color: white;
+  border: 1px solid #444;
+}
+
+.save-btn.dark {
+  background: #ff7043;
+}
+
+.notes-grid.dark .note-card {
+  background: #333333;
+  color: white;
+}
+
+.note-footer.dark {
+  color: #b0b0b0;
+}
+
+/* Button for Dark Mode Toggle */
+.dark-mode-toggle {
+  padding: 8px 16px;  /* Reduced padding for a shorter button */
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;  /* Rounded corners */
+  font-size: 1rem;  /* Adjust font size */
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+}
+
+body.dark-mode .save-btn {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+}
